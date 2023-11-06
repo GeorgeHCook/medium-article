@@ -1,0 +1,17 @@
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  padding: 120px 0;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
